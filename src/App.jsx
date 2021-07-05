@@ -1,10 +1,16 @@
 import React from 'react'
+import './app.css'
+import Header from './components/Header/Header'
+import Body from './components/Body/Body'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Kencoin</h1>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }

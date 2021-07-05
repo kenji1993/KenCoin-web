@@ -1,0 +1,10 @@
+.headerContainer {
+    background: #5F1BF2;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+.headerLogo {
+    width: 20rem;
+}
